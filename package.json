@@ -1,0 +1,27 @@
+{
+  "name": "boredape-nft-minting-dapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.4.6",
+    "bnc-onboard": "^1.39.0",
+    "ethers": "^5.7.0",
+    "next": "12.2.5",
+    "protobufjs": "^7.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}
